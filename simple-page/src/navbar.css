@@ -1,0 +1,36 @@
+:root{
+    --font: 'Roboto', 'Open Sans', 'Montserrat', 'Poppins', 'Rubik';
+}
+
+.navigation{
+    display: flex;
+    position: sticky;
+}
+
+img{
+    height: 8vh;
+    width: 8vw;
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2em;
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+li{
+    transition: 0.5s;
+}
+
+li:hover{
+    background-color: #547df0;
+    color: white;
+    padding: 0.2em;
+    border-radius: 10px;
+}
+

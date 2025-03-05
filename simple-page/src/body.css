@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-content{
+    background-color: #290f00;
+    width: 100vw;
+}
+
+.coffee{
+    height: 70vh;
+    width: auto;
+    position: relative;
+    margin: 2em;
+    left: 2em;
+}
