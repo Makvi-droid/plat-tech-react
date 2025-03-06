@@ -2,6 +2,10 @@
     --font: 'Roboto', 'Open Sans', 'Montserrat', 'Poppins', 'Rubik';
 }
 
+body{
+    background-color: #824800;
+}
+
 .navigation{
     display: flex;
     position: sticky;
@@ -17,10 +21,11 @@ img{
     list-style: none;
     align-items: center;
     gap: 2em;
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue', var(--font);
     letter-spacing: 2px;
     font-size: 1.3rem;
     cursor: pointer;
+    color: whitesmoke;
 }
 
 li{
@@ -28,7 +33,7 @@ li{
 }
 
 li:hover{
-    background-color: #547df0;
+    background-color: #331c00;
     color: white;
     padding: 0.2em;
     border-radius: 10px;

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from './navbar.js';
 import Body from './body.js';
+import Footer from './footer.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -9,6 +10,7 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <Body />
+    <Footer />
   </React.StrictMode>
 );
 
